@@ -1,0 +1,42 @@
+body {
+  background: #0a0f1f;
+  color: #f1f5f9;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.auth-container {
+  background: #1e293b;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,180,216,0.3);
+  text-align: center;
+  width: 300px;
+}
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #0f172a;
+  color: white;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  background: #00b4d8;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #0096c7;
+  transform: scale(1.05);
+}
+a { color: #00b4d8; text-decoration: none; }
